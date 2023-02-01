@@ -97,7 +97,7 @@ void loop() {
     Serial.print(gyroZ);
     Serial.print("\r\n");
     while(digitalRead(h_key)==0){}
-    bleMouse.move(gyroZ, -gyroX);
+    bleMouse.move(gyroZ, gyroX);
     if (digitalRead(l_but)==0){
       while(digitalRead(l_but)==0){}
       bleMouse.click(MOUSE_LEFT);

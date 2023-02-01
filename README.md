@@ -1,3 +1,8 @@
+# What does your fork add over the original?
+
+A lot actually. When rm10078's project was based on integrating it in a tiny package, I have dreamed of a "glove" of sorts. I want to go full gimmicky and use touch pins instead of buttons, etc. Also, I have added an "enable" touch pin which makes the mouse move only when touched. Pin Info and pics will vary, if I forget to edit, open an issue.
+
+
 
 # 🐁 Bluetooth mouse control by gyro (MPU6050)
 

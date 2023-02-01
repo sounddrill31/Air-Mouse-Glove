@@ -3,6 +3,10 @@
 #include <SoftwareSerial.h>
 #include <BleMouse.h>
 
+const int touchPin = 4; 
+const int threshold = 20;
+int touchValue;
+
 uint8_t data[6];
 int16_t gyroX, gyroZ;
  
@@ -83,6 +87,10 @@ void setup() {
 }
 
 void loop() {
+ touchValue = touchRead(touchPin);
+ Serial.print(touchValue);
+ 
+ 
   while(i2cRead(0x3B,i2cData,14));
  
   gyroX = ((i2cData[8] << 8) | i2cData[9]);
@@ -97,7 +105,10 @@ void loop() {
     Serial.print(gyroZ);
     Serial.print("\r\n");
     while(digitalRead(h_key)==0){}
+   if(touchValue < threshold){
     bleMouse.move(gyroZ, gyroX);
+      }
+    //bleMouse.move(gyroZ, gyroX);
     if (digitalRead(l_but)==0){
       while(digitalRead(l_but)==0){}
       bleMouse.click(MOUSE_LEFT);

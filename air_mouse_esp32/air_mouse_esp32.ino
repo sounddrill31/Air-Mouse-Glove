@@ -3,9 +3,9 @@
 #include <SoftwareSerial.h>
 #include <BleMouse.h>
 
-const int touchPin = 4; 
-const int threshold = 20;
-int touchValue;
+const int touchPin1 = 4;   //replace with equivalent pins. If you do not have touch pins on your device but have bluetooth HID, Control+F, search for "abcd" and replace those with buttons as per instructions. 
+const int threshold = 40;
+int touchValue1;
 
 uint8_t data[6];
 int16_t gyroX, gyroZ;
@@ -15,12 +15,12 @@ int SensitivityZ = 800;
 int delayi = 20;
 int s_speed=100;
 
-const int l_but=18;
-const int r_but=19;
-const int h_key=5;
-const int s_down=17;
-const int s_up=16;
-
+//const int l_but=18;
+//const int r_but=19;
+//const int h_key=5;
+//const int s_down=17;
+//const int s_up=16;
+//uncomment above (abcd)
 BleMouse bleMouse;
 
 uint32_t timer;
@@ -87,8 +87,8 @@ void setup() {
 }
 
 void loop() {
- touchValue = touchRead(touchPin);
- Serial.print(touchValue);
+ touchValue1 = touchRead(touchPin1); //remove line (abcd)
+ Serial.print(touchValue1); //remove line (abcd)
  
  
   while(i2cRead(0x3B,i2cData,14));
@@ -105,7 +105,7 @@ void loop() {
     Serial.print(gyroZ);
     Serial.print("\r\n");
     while(digitalRead(h_key)==0){}
-   if(touchValue < threshold){
+   if(touchValue1 < threshold){ //remove block and uncomment the bleMouse part. (abcd)
     bleMouse.move(gyroZ, gyroX);
       }
     //bleMouse.move(gyroZ, gyroX);

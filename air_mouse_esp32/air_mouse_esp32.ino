@@ -15,12 +15,12 @@ int SensitivityZ = 800;
 int delayi = 20;
 int s_speed=100;
 
-//const int l_but=18;
-//const int r_but=19;
-//const int h_key=5;
-//const int s_down=17;
-//const int s_up=16;
-//uncomment above (abcd)
+const int l_but=18;
+const int r_but=19;
+const int h_key=5;
+const int s_down=17;
+const int s_up=16;
+
 BleMouse bleMouse;
 
 uint32_t timer;

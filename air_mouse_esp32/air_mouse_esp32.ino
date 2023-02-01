@@ -21,7 +21,7 @@ const int h_key=5;
 const int s_down=17;
 const int s_up=16;
 
-BleMouse bleMouse;
+BleMouse bleMouse("ESP32 Air Mouse", "Zeus Institute", 100);
 
 uint32_t timer;
 uint8_t i2cData[14];

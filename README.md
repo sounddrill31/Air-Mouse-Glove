@@ -1,8 +1,12 @@
 # What does your fork add over the original?
 
-A lot actually. When rm10078's project was based on integrating it in a tiny package, I have dreamed of a "glove" of sorts. I want to go full gimmicky and use touch pins instead of buttons, etc. Also, I have added an "enable" touch pin which makes the mouse move only when touched. Pin Info and pics will vary, if I forget to edit, open an issue.
+A lot actually. I have inverted some axes to better fit my requirements. I have also added an "enable" touch pin which makes the mouse move only when touched. Pin Info and pics will vary(will slowly add as project progresses), if I forget to edit later on, open an issue.
 
-For now, the buttons all remain the same, except you need to run a jumper pin from GPIO4 to ... well, anywhere. You touch it/hold it and mouse moves. I recommend strapping it to a piece of aluminium foil. Everything below is unchanged. 
+For now, the buttons all remain the same, except you need to run a jumper pin from GPIO4 to ... well, anywhere. You touch it/hold it and mouse moves. I recommend strapping it to a piece of aluminium foil. 
+
+
+
+Everything below is unchanged. 
 
 # 🐁 Bluetooth mouse control by gyro (MPU6050)
 

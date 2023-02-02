@@ -4,6 +4,19 @@ A lot actually. I have inverted some axes to better fit my requirements. I have 
 
 For now, the buttons all remain the same, except you need to run a jumper pin from GPIO4(in order to move the mouse) to ... well, anywhere. You touch it/hold it and mouse moves. I recommend strapping it to a piece of aluminium foil. 
 
+    SCL (ESP32 GPIO22) MPU6050 SCL PIN
+    SDA (ESP32 GPIO21) MPU6050 SDA PIN
+    T0(GPIO4)(TOUCH MOUSE ENABLE PIN)
+    GPIO19 (LEFT CLICK)(it's flipped on mine for some reason, GPIO 18 being left click and vice versa)
+    GPIO18 (RIGHT CLICK)
+    GPIO05 (HOLD KEY)
+    GPIO17 (SCROLL DOWN)
+    GPIO16 (SCROLL UP)
+
+
+
+Limitations: You cant
+
 
 
 Everything below is unchanged. 

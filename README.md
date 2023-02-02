@@ -15,7 +15,7 @@ For now, the buttons all remain the same, except you need to run a jumper pin fr
 
 
 
-Limitations: You cant
+Limitations: You can't use mouse and click at the same time. 
 
 
 

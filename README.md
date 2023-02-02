@@ -1,6 +1,6 @@
 # What does your fork add over the original?
 
-A lot actually. I have inverted some axes to better fit my requirements. I have also added an "enable" touch pin which makes the mouse move only when touched. Pin Info and pics will vary(will slowly add as project progresses), if I forget to edit later on, open an issue.
+A lot actually. I have inverted some axes to better fit my requirements. I have also added an "enable" touch pin which makes the mouse move only when touched(since the hold button did not satisfy my requirements). Pin Info and pics will vary(will slowly add as project progresses), if I forget to edit later on, open an issue.
 
 For now, the buttons all remain the same, except you need to run a jumper pin from GPIO4(in order to move the mouse) to ... well, anywhere. You touch it/hold it and mouse moves. I recommend strapping it to a piece of aluminium foil. 
 

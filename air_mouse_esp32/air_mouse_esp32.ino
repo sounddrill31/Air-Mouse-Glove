@@ -3,8 +3,8 @@
 #include <SoftwareSerial.h>
 #include <BleMouse.h>
 
-const int touchPin1 = 4;   //replace with equivalent pins. If you do not have touch pins on your device but have bluetooth HID, Control+F, search for "abcd" and replace those with buttons as per instructions. 
-const int threshold = 40;
+const int touchPin1 = 4;   //replace with equivalent pins. If you do not have touch pins on your device but have bluetooth HID, Control+F, search for "abcd" and replace those with buttons as per instructions. (abcd)
+const int threshold = 40;  //edit this to increase/decrease sensitivity of touch sensors.  
 int touchValue1;
 
 uint8_t data[6];

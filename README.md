@@ -12,6 +12,12 @@ For now, the buttons all remain the same, except you need to run a jumper pin fr
     GPIO05 (HOLD KEY)
     GPIO17 (SCROLL DOWN)
     GPIO16 (SCROLL UP)
+    
+    
+    
+Schematic: 
+
+![Schematic_AirGlove_2023-02-03(2)](https://user-images.githubusercontent.com/84176052/216603606-b6900206-0441-407c-a553-aea29b35f574.png)
 
 
 

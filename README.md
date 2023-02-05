@@ -24,6 +24,8 @@ Schematic:
 
 Limitations: You can't use mouse and click at the same time. 
 
+Fun fact: the original repo developer has the same esp 32 as me(the ai-thinker nodemcu-32s)
+
 Credits: 
 rm10078's BLE_mouse_esp32_with_mpu6050
 

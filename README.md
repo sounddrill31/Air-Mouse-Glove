@@ -26,7 +26,10 @@ Limitations: You can't use mouse and click at the same time.
 
 Credits: 
 rm10078's BLE_mouse_esp32_with_mpu6050
+
 T-vK's ESP32-BLE-Mouse
+
+EasyEDA, amazing software
 
 Bonus tip: Get a cheap tp4056 module, a single or multi 18650 battery slot and an 18650 battery(also a latching switch, if you're into that.) instead of the 9V battery.
 

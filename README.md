@@ -20,6 +20,9 @@ Schematic:
 
 ![Schematic_AirGlove_2023-02-05](https://user-images.githubusercontent.com/84176052/216811419-fb68ccfc-73c3-4fa6-b2e3-7f4ae1456572.png)
 
+PCB: 
+
+https://github.com/sounddrill31/Air-Glove-PCB
 
 
 Limitations: You can't use mouse and click at the same time. 

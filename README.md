@@ -25,7 +25,8 @@ PCB:
 https://github.com/sounddrill31/Air-Glove-PCB
 
 
-Limitations: You can't use mouse and click at the same time. 
+Limitations: You can't use mouse and click at the same time(the original repo can. This is likely due to the touch pin "Enabling" the mouse).
+
 
 Fun fact: the original repo developer has the same esp 32 as me(the ai-thinker nodemcu-32s)
 
